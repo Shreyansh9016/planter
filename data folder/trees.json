@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Mango Tree",
+      "description": "A tree that gives juicy fruits!",
+      "growthStages": [
+        {"year": 1, "scale": "1 1 1"},
+        {"year": 5, "scale": "3 3 3"},
+        {"year": 10, "scale": "6 6 6"}
+      ]
+    },
+    {
+      "name": "Neem Tree",
+      "description": "A tree with medicinal properties!",
+      "growthStages": [
+        {"year": 1, "scale": "1 1 1"},
+        {"year": 5, "scale": "2 2 2"},
+        {"year": 10, "scale": "4 4 4"}
+      ]
+    }
+  ]
+  

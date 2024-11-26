@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Tree Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ar.js"></script>
+</head>
+<body>
+    <h1>AR Tree Plantation Planner</h1>
+    <p>Choose a tree and see how it looks in your space!</p>
+    <select id="treeSelector"></select>
+    <button id="placeTree">Show Tree in AR</button>
+    <button id="growTree">Grow Tree</button> <!-- Added this button -->
+    
+    <a-scene embedded arjs>
+        <a-marker-camera preset="hiro"></a-marker-camera>
+        <a-entity id="treeModel" position="0 0 0"></a-entity>
+    </a-scene>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
